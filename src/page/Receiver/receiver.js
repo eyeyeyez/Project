@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
 import Footer from '../../Component/Footer/footer';
-import '../../styles/semantic.min.css'
+import Navbar from '../../Component/Navbar/navbar';
 
+import '../../styles/semantic.min.css'
+import './receiver.css';
 
 class Receiver extends Component {
   render() {
     return (
-      <div className="receiver">
+      <div className="Receiver">
+        <Navbar/>
          receiver
         <br/><br/><br/><br/><br/><br/><br/>
       
